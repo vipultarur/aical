@@ -1,0 +1,51 @@
+name: calcount
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  camera: ^0.12.0+1
+  equatable: ^2.0.8
+  flutter:
+    sdk: flutter
+
+  flutter_riverpod: ^2.5.1
+  flutter_screenutil: ^5.9.3
+  go_router: ^14.2.1
+  google_fonts: ^6.2.1
+  google_generative_ai: ^0.4.6
+  http: ^1.2.2
+  google_mlkit_barcode_scanning: ^0.14.2
+  image_picker: ^1.2.2
+  lucide_icons: ^0.257.0
+  shared_preferences: ^2.3.2
+  google_nav_bar: ^5.0.7
+  percent_indicator: 4.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/camera_button.png
+    - assets/breakfast.png
+    - assets/lunch.png
+    - assets/dinner.png
+    - assets/snack.png
+    - assets/carbs.png
+    - assets/protein.png
+    - assets/fat.png
+    - assets/plus_button.png
